@@ -1,0 +1,99 @@
+<resources>
+    <!-- Facebook PROD -->
+    <string name="facebook_app_id">536676423065518</string>
+    <!-- Facebook TEST -->
+    <!-- <string name="facebook_app_id">386244311487674</string> -->
+    <!-- Facebook DEV -->
+    <!-- <string name="facebook_app_id">120936081410249</string> -->
+
+    <string name="app_name">Curso Noruego</string>
+    <!--<string name="app_name">Curso Danés</string>-->
+
+    <string name="opinion_is_copied">El texto con tu opinión se ha copiado</string>
+    <string name="button_feedback_google_play">Ir a GOOGLE PLAY</string>
+    <string name="button_feedback_skip">OMITIR</string>
+    <string name="lection_feedback_google_play_text">¿Te importaría aportar tu valoración en Google Play también?</string>
+    <string name="lection_feedback_send_message">ENVIAR</string>
+    <string name="lection_feedback_comments">Tus comentarios</string>
+    <string name="lection_feedback_question">¿Que te parecen las tareas completadas hasta ahora?</string>
+    <string name="lection_feedback">Valoración</string>
+    <string name="complete_course">Curso completo</string>
+    <string name="correct">¡Correcto!</string>
+    <string name="day">Día</string>
+    <string name="error_minlength_occupation">Debe contener al menos dos carácteres</string>
+    <string name="facebook_log_in">Iniciar sesión con Facebook</string>
+    <string name="lections">Lecciones</string>
+    <string name="my_vocabulary">Mi vocabulario</string>
+    <string name="settings">Ajustes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="feedback">Feedback</string>
+    <string name="is_connected">está conectado</string>
+    <string name="is_disconnected">está desconectado</string>
+    <string name="lection">Lección</string>
+    <string name="level">Nivel</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="month">Mes</string>
+    <string name="my_account">Mi cuenta</string>
+    <string name="my_data">Mis datos</string>
+    <string name="new_version">Nueva versión</string>
+    <string name="new_version_description">Una nueva versión está disponible en Google Play.</string>
+    <string name="level_completed">Nivel completado</string>
+    <string name="occupation">Ocupación</string>
+    <string name="offer">Oferta</string>
+    <string name="proceed_to_payment">Proceder al pago »</string>
+    <string name="record_audio">Grabar audio</string>
+    <string name="record_video">Grabar video</string>
+    <string name="reviews">Revisiones</string>
+    <string name="saving_progress">Guardando progresión</string>
+    <string name="select_what_you_heard">Elige lo que escuchaste:</string>
+    <string name="signing_in">Iniciando sesión</string>
+    <string name="title_activity_verb_revision">Revisión de verbos</string>
+    <string name="title_activity_noun_revision">Revisión de sustantivos</string>
+    <string name="title_activity_adjective_revision">Revisión de adjetivos</string>
+    <string name="update">Actualiza</string>
+    <string name="updating">Actualizando</string>
+    <string name="uploading">Subiendo</string>
+    <string name="very_good">¡Muy bien!</string>
+    <string name="what_is_your_occupation">¿A qué te dedicas?</string>
+    <string name="words">Palabras</string>
+    <string name="write_what_the_person_said">Escribe (en noruego) lo que dijo la persona en el video:</string>
+    <string name="write_what_you_heard">Escribe (en noruego) lo que escuchaste:</string>
+
+
+    <string name="levelCefrDialogTitle">¿Cuál es tu nivel actual de noruego?</string>
+    <string name="current_level">Nivel actual</string>
+    <array name="levelCefrArray">
+        <item>A1. Principiante</item>
+        <item>A2. Elemental</item>
+        <item>B1. Intermedio bajo</item>
+        <item>B2. Intermedio</item>
+        <item>C1. Intermedio alto</item>
+        <item>C2. Avanzado</item>
+    </array>
+    <array name="levelCefrArrayValues">
+        <item>A1</item>
+        <item>A2</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>C1</item>
+        <item>C2</item>
+    </array>
+
+    <string name="learningReasonDialogTitle">¿Por qué quieres aprender noruego?</string>
+    <string name="learning_reason">Motivación para aprender</string>
+    <array name="learningReasonArray">
+        <item>Trabajo</item>
+        <item>Estudio</item>
+        <item>Viaje/vacaciones</item>
+        <item>Familia/pareja</item>
+        <item>Otro</item>
+    </array>
+    <array name="learningReasonArrayValues">
+        <item>WORK</item>
+        <item>STUDIES</item>
+        <item>TRAVEL</item>
+        <item>FAMILY</item>
+        <item>OTHER</item>
+    </array>
+</resources>
