@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Curso Noruego</string>
+    <!--<string name="app_name">Curso Danés</string>-->
+
+    <string name="opinion_is_copied">The text with your opinion has been copied</string>
+    <string name="button_feedback_google_play">Go to GOOGLE PLAY</string>
+    <string name="button_feedback_skip">SKIP</string>
+    <string name="lection_feedback_google_play_text">Would you care to give your opinion on Google Play too?</string>
+    <string name="lection_feedback_send_message">SEND</string>
+    <string name="lection_feedback_comments">Your comments</string>
+    <string name="lection_feedback_question">What do you think about the tasks you have completed so far?</string>
+    <string name="lection_feedback">Feedback</string>
+    <string name="complete_course">Complete course</string>
+    <string name="correct">Correct!</string>
+    <string name="day">Day</string>
+    <string name="error_minlength_occupation">Should consist of at least two characters</string>
+    <string name="facebook_log_in">Log in with Facebook</string>
+    <string name="lections">Lections</string>
+    <string name="my_vocabulary">My vocabulary</string>
+    <string name="settings">Settings</string>
+    <string name="level">Level</string>
+    <string name="lection">Lection</string>
+    <string name="log_out">Log out</string>
+    <string name="month">Month</string>
+    <string name="my_account">My account</string>
+    <string name="my_data">My data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="new_version">New version</string>
+    <string name="new_version_description">A new version is available on Google Play.</string>
+    <string name="occupation">Occupation</string>
+    <string name="offer">Offer</string>
+    <string name="proceed_to_payment">Proceed to payment »</string>
+    <string name="record_audio">Record audio</string>
+    <string name="record_video">Record video</string>
+    <string name="saving_progress">Saving progress</string>
+    <string name="select_what_you_heard">Select what you heard:</string>
+    <string name="signing_in">Signing in</string>
+    <string name="update">Update</string>
+    <string name="updating">Updating</string>
+    <string name="uploading">Uploading</string>
+    <string name="feedback">Feedback</string>
+    <string name="is_connected">is connected</string>
+    <string name="is_disconnected">is disconnected</string>
+    <string name="title_activity_verb_revision">Verb revision</string>
+    <string name="title_activity_noun_revision">Noun revision</string>
+    <string name="title_activity_adjective_revision">Adjective revision</string>
+    <string name="very_good">Very good!</string>
+    <string name="what_is_your_occupation">What is your occupation?</string>
+    <string name="words">Words</string>
+    <string name="write_what_the_person_said">Write (in Norwegian) what the person in the video said:</string>
+    <string name="write_what_you_heard">Write (in Norwegian) what you heard:</string>
+
+
+    <string name="levelCefrDialogTitle">What is your current level?</string>
+    <string name="current_level">Current level</string>
+    <array name="levelCefrArray">
+        <item>A1. Beginner</item>
+        <item>A2. Elementary</item>
+        <item>B1. Pre-intermediate</item>
+        <item>B2. Intermediate</item>
+        <item>C1. Upper intermediate</item>
+        <item>C2. Advanced</item>
+    </array>
+
+    <string name="learningReasonDialogTitle">Why do you want to learn Norwegian?</string>
+    <string name="learning_reason">Learning motivation</string>
+    <array name="learningReasonArray">
+        <item>Work</item>
+        <item>Studies</item>
+        <item>Travel/vacation</item>
+        <item>Family/partner</item>
+        <item>Other</item>
+    </array>
+    <string name="level_completed">Level completed</string>
+    <string name="reviews">Reviews</string>
+</resources>
