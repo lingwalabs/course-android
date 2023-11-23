@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+	        android:title="@string/my_data">
+
+        <ListPreference
+            android:key="pref_level_cefr"
+            android:title="@string/current_level"
+            android:dialogTitle="@string/levelCefrDialogTitle"
+            android:entries="@array/levelCefrArray"
+            android:entryValues="@array/levelCefrArrayValues" />
+
+	    <ListPreference
+	        android:key="pref_learning_reason"
+            android:title="@string/learning_reason"
+            android:dialogTitle="@string/learningReasonDialogTitle"
+            android:entries="@array/learningReasonArray"
+            android:entryValues="@array/learningReasonArrayValues" />
+
+	    <EditTextPreference
+	        android:key="pref_occupation"
+            android:title="@string/occupation"
+            android:dialogTitle="@string/what_is_your_occupation" />
+    </PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/my_account">
+
+		<Preference
+			android:key="pref_log_out"
+			android:title="@string/log_out" />
+	</PreferenceCategory>
+</PreferenceScreen>
