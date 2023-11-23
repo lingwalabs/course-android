@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Contraseña (opcional)</string>
+    <string name="action_sign_in">Iniciar sesión o darme de alta</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="plus_sign_out">Cambia cuenta de Google+</string>
+    <string name="plus_disconnect">Desconectar de Google+</string>
+    <string name="error_invalid_email">Este e-mail no es válido</string>
+    <string name="error_invalid_password">Esta contraseña es demasiada corta</string>
+    <string name="error_incorrect_password">Esta contraseña no es correcta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+</resources>
