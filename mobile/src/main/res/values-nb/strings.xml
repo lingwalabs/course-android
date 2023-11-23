@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Curso Noruego</string>
+    <!--<string name="app_name">Curso Danés</string>-->
+
+    <string name="opinion_is_copied">Teksten med din tilbakemelding ble kopiert</string>
+    <string name="button_feedback_google_play">Gå til GOOGLE PLAY</string>
+    <string name="button_feedback_skip">HOPPE</string>
+    <string name="lection_feedback_google_play_text">Kunne du lagt til din vurdering på Google Play også?</string>
+    <string name="lection_feedback_send_message">SENDE</string>
+    <string name="lection_feedback_comments">Dine kommentarer</string>
+    <string name="lection_feedback_question">Hva syns du om oppgavene du har fullført så langt?</string>
+    <string name="lection_feedback">Feedback</string>
+    <string name="complete_course">Komplett kurs</string>
+    <string name="correct">Korrekt!</string>
+    <string name="day">Dag</string>
+    <string name="error_minlength_occupation">Må bestå av minst to tegn</string>
+    <string name="facebook_log_in">Logg inn med Facebook</string>
+    <string name="lections">Leksjoner</string>
+    <string name="my_vocabulary">Mitt vokabular</string>
+    <string name="settings">Innstillinger</string>
+    <string name="lection">Leksjon</string>
+    <string name="level">Nivå</string>
+    <string name="log_out">Logg ut</string>
+    <string name="month">Måned</string>
+    <string name="my_account">Min konto</string>
+    <string name="my_data">Mine data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="new_version">Ny versjon</string>
+    <string name="new_version_description">En ny versjon er tilgjengelig på Google Play.</string>
+    <string name="occupation">Yrke</string>
+    <string name="offer">Offer</string>
+    <string name="proceed_to_payment">Gå videre til betaling »</string>
+    <string name="record_audio">Gjør lydopptak</string>
+    <string name="record_video">Gjør videoopptak</string>
+    <string name="saving_progress">Lagrer progresjon</string>
+    <string name="select_what_you_heard">Velg hva du hørte:</string>
+    <string name="signing_in">Logger inn</string>
+    <string name="update">Oppdatér</string>
+    <string name="updating">Oppdaterer</string>
+    <string name="uploading">Laster opp</string>
+    <string name="feedback">Feedback</string>
+    <string name="is_connected">er tilkoblet</string>
+    <string name="is_disconnected">er frakoblet</string>
+    <string name="title_activity_verb_revision">Repetisjon av verb</string>
+    <string name="title_activity_noun_revision">Repetisjon av substantiver</string>
+    <string name="title_activity_adjective_revision">Repetisjon av adjektiver</string>
+    <string name="very_good">Veldig bra!</string>
+    <string name="what_is_your_occupation">Hva er ditt yrke?</string>
+    <string name="words">Ord</string>
+    <string name="write_what_the_person_said">Skriv (på norsk) hva personen i videoen sa:</string>
+    <string name="write_what_you_heard">Skriv (på norsk) hva du hørte:</string>
+
+
+    <string name="levelCefrDialogTitle">Hva er ditt gjeldende nivå?</string>
+    <string name="current_level">Gjeldende nivå</string>
+    <array name="levelCefrArray">
+        <item>A1. Nybegynner</item>
+        <item>A2. Elementær</item>
+        <item>B1. Nedre mellomnivå</item>
+        <item>B2. Mellomnivå</item>
+        <item>C1. Øvre mellomnivå</item>
+        <item>C2. Avansert</item>
+    </array>
+
+    <string name="learningReasonDialogTitle">Hvorfor vil du lære norsk?</string>
+    <string name="learning_reason">Læringsmotivasjon</string>
+    <array name="learningReasonArray">
+        <item>Arbeid</item>
+        <item>Studier</item>
+        <item>Reise/ferie</item>
+        <item>Familie/partner</item>
+        <item>Annet</item>
+    </array>
+    <string name="level_completed">Nivå fullført</string>
+    <string name="reviews">Repetisjoner</string>
+</resources>
