@@ -1,5 +1,11 @@
 # course-android
 
+#$ Command line compilation
+
+```
+./gradlew clean build
+```
+
 ## Gradle Upgrade
 
 ```

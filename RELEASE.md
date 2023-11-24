@@ -1,6 +1,5 @@
 # Release checklist
 
-
 *** Before release ***
 
 - Update versionName and versionCode in AndroidManifest.xml and build.gradle
@@ -11,11 +10,6 @@ Curso Noruego
 - Update to package="es.cursonoruego" in mobile/src/main/AndroidMainfest.xml and wear/src/main/AndroidMainfest.xml
 - Update to domain cursonoruego.es
 
-Curso Danés
-- Update to package="es.cursodanes" in mobile/src/main/AndroidMainfest.xml and wear/src/main/AndroidMainfest.xml
-- Update to domain cursodanes.es
-
-
 *** Google Play release ***
 - See details in Google Drive: https://docs.google.com/document/d/18m1LtO6DwHPOTivG9VeJqlRjSPMoHbr6ll1k_IGR5hs/edit#heading=h.930nt5ftcuwa
 
@@ -23,7 +17,7 @@ Curso Danés
 
 *** After release ***
 
-- Tag released version in Subversion
+- Tag released version
 - Update versionName and versionCode in AndroidManifest.xml and build.gradle
 - Increment version (e.g. from "2.0.0 to 2.0.1")
 - Add "-SNAPSHOT" to version (e.g. from "2.0.1" to "2.0.1-SNAPSHOT")
@@ -31,4 +25,3 @@ Curso Danés
 
 *** After Google Play release **
 - Update /rest/v2/version/android (VersionRestV2Helper.java) on web server
-
