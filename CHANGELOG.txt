@@ -1,0 +1,121 @@
+# CHANGELOG
+
+*** 2.0.2 (2000002) ***
+ • Added GCM
+
+*** 2.0.3 (2000003) ***
+ • Fixed GCM bug
+
+*** 2.0.4 (2000004) ***
+ • Status bar color
+ • Adjective revision
+ • Check for newer version at startup
+
+*** 2.0.6 (2000006) ***
+ • Added Lections
+ • Added support for more task types
+
+*** 2.0.7 (2000007) ***
+ • Added storage of more TaskEvent types
+
+*** 2.0.8 (2000008) ***
+ • Level navigation
+
+*** 2.0.9 (2000009) ***
+ • Added storage of SpeechEvents
+
+*** 3.0.0 (3000000) ***
+ • Package rename from "eu.educativo.cursonoruego" to "es.cursonoruego"
+ • Force uninstall of beta version (2.0.9)
+ • Clear all user preferences un application upgrade
+
+*** 3.0.0 (3000000) ***
+ • Package rename from "eu.educativo.cursonoruego" to "es.cursonoruego"
+ • Force uninstall of beta version (2.0.9)
+ • Clear all user preferences un application upgrade
+
+*** 3.0.1 (3000001) ***
+ • Fixed bug causing GCM registration to fail in the background when redirect to LoginActivity
+
+*** 3.0.2 (3000002) ***
+ • Create new user after Google+ sign-on
+
+*** 3.0.6 (3000006) ***
+ • Open app when clicking e-mail links (/user/lections, /user/vocabulary, /user/reviews)
+
+*** 3.0.7 (3000007) ***
+ • Login with Facebook
+
+*** 3.0.8 (3000008) ***
+ • Animated GIFs
+
+*** 3.0.9 (3000009) ***
+ • Random option order in LISTEN_AND_SELECT tasks
+
+*** 3.1.0 (3001000) ***
+ • Added support for task type LISTEN_SOUNDCLOUD
+
+*** 3.1.1 (3001001) ***
+ • Added support for task type VIDEO_AND_WRITE
+ • Added support for task type VIDEO_AFTENPOSTEN
+ • Added support for task type VIDEO_VG
+
+*** 3.1.2 (3001002) ***
+ • Added EngagementEvent
+
+*** 3.1.3 (3001003) ***
+ • Detect missing our outdated version of Google Play Services
+
+*** 3.1.4 (3001004) ***
+ • Added ActionBar to settings screen
+
+*** 3.1.5 (3001005) ***
+ • Fixed bug Google+ signout
+ • Remove speech button when the speechrecognizer is not available
+
+*** 3.1.6 (3001006) ***
+ • Added payment screen
+
+*** 3.1.7 (3001007) ***
+ • Improved speech recognition
+
+*** 3.1.8 (3001008) ***
+ • Added animated GIFs to word revision
+ • 46034074459339 Save images on device
+ • 47868369917963 Upload video recording to server
+
+*** 3.1.9 (3001009) ***
+ • Fixed problem with invisible text on lection screen
+
+*** 3.2.0 (3002000) ***
+ • Temporary bug fix: disabled GIF animations
+
+*** 3.2.1 (3002001) ***
+ • #65116648992414 Implemented user permissions for API 23
+
+*** 3.2.2 (3002002) ***
+ • #66768953455769 Accept alternative Words
+ • #68777074156840 Update Audio URL
+
+*** 3.2.3 (3002003) ***
+ • #68777074156840 Fixed bug with image/audio URL
+
+*** 3.2.4 (3002004) ***
+ • #68777074156840 Fixed bug with Audio AsyncTask
+
+*** 3.2.5 (3002005) ***
+ • #47214884645781 Add ActionBar to SettingsActivity in API >= 21
+
+*** 3.2.6 (3002006) ***
+ • Reduced default daily word limit from 11 to 7
+
+*** 3.2.7 (3002007) ***
+ • Lection feedback activity added
+ • Bug size of occupation field  from settings activity fixed
+ • Reducing download time of sounds and images
+
+*** 3.2.8 (3002008) ***
+ • Fixed speech recognition bug
+
+*** 3.2.9 (3002009) ***
+ • #59491489401216 Handle UserProfile update request through GCM

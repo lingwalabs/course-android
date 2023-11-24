@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="es.cursonoruego.lections.feedback.LectionGooglePlayFeedback"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/feedback_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center_vertical"
+        android:text="@string/lection_feedback_google_play_text"
+        android:gravity="center|bottom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:elevation="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_feedback_positive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_mood_green_600_24dp" />
+
+        <TextView
+            android:id="@+id/feedback_selectable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:textIsSelectable="true"
+            android:background="@color/cardview_light_background"
+            android:gravity="center|bottom" />
+
+    </LinearLayout>
+
+    <Button android:id="@+id/lection_button_google_play"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/button_feedback_google_play" />
+
+
+    <Button android:id="@+id/lection_button_feedback_skip"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textColor="@android:color/background_dark"
+        android:text="@string/button_feedback_skip" />
+
+</LinearLayout>

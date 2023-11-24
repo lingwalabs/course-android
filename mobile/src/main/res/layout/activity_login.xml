@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_background"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="center_horizontal"
+        android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="es.cursonoruego.signon.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_512"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:fontFamily="sans-serif-light"
+                android:textSize="40sp"
+                android:textColor="#FFF"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Login progress -->
+        <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center">
+
+            <com.google.android.gms.common.SignInButton android:id="@+id/plus_sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp" />
+
+            <LinearLayout android:id="@+id/plus_sign_out_buttons"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone" android:weightSum="2">
+
+                <Button android:id="@+id/plus_sign_out_button" style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:layout_weight="1" android:text="@string/plus_sign_out" />
+
+                <Button android:id="@+id/plus_disconnect_button"
+                    style="?android:textAppearanceSmall" android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1"
+                    android:text="@string/plus_disconnect" />
+            </LinearLayout>
+
+            <com.facebook.login.widget.LoginButton
+                xmlns:facebook="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/login_button_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:elevation="2dp"
+                facebook:com_facebook_login_text="@string/facebook_log_in"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

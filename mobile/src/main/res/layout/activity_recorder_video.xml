@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recorder.VideoRecorder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <VideoView android:id="@+id/record_video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+        <LinearLayout android:id="@+id/recorder_record_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView android:id="@+id/record_video_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pulsa el botón y di &quot;Hei&quot;"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+            <ImageButton android:id="@+id/record_video_button"
+                android:layout_width="@dimen/icon_button_width"
+                android:layout_height="@dimen/icon_button_height"
+                android:src="@drawable/ic_videocam_white_24dp"
+                android:background="@drawable/circle"
+                android:elevation="3dp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/recorder_upload_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="¿Quieres saber si lo pronunciaste bien?"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_marginBottom="@dimen/activity_vertical_margin" />
+
+            <Button android:id="@+id/recorder_upload_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="Subir grabación" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

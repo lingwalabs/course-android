@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="es.cursonoruego.lections.feedback.LectionFeedbackActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/feedback_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center_vertical"
+        android:text="@string/lection_feedback_question"
+        android:gravity="center|bottom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.05">
+
+        <ImageButton
+            android:id="@+id/feedback_positive_button"
+            android:src="@drawable/ic_mood_green_600_24dp"
+            android:layout_width="@dimen/icon_button_width"
+            android:layout_height="@dimen/icon_button_height"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_circle"
+            android:elevation="3dp" />
+
+        <ImageButton
+            android:id="@+id/feedback_neutral_button"
+            android:src="@drawable/ic_mood_neutral_orange_24dp"
+            android:layout_width="@dimen/icon_button_width"
+            android:layout_height="@dimen/icon_button_height"
+            android:background="@drawable/white_circle"
+            android:elevation="3dp" />
+
+        <ImageButton
+            android:id="@+id/feedback_negative_button"
+            android:src="@drawable/ic_mood_bad_red_24dp"
+            android:layout_width="@dimen/icon_button_width"
+            android:layout_height="@dimen/icon_button_height"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/white_circle"
+            android:elevation="3dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/feedback_answer_text"
+        android:inputType="textMultiLine"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="15dp"
+        android:hint="@string/lection_feedback_comments"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/feedback_answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/lection_feedback_send_message" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <FrameLayout android:id="@+id/task_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lection_progress" />
+
+    <ProgressBar android:id="@+id/lection_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lection_button_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="10"
+        android:progress="2" />
+
+    <LinearLayout android:id="@+id/lection_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle"
+        android:divider="?android:attr/dividerVertical"
+        android:showDividers="middle">
+
+        <Button android:id="@+id/lection_button_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:text="« Anterior" />
+
+        <Button android:id="@+id/lection_button_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:text="Continuar »" />
+    </LinearLayout>
+</RelativeLayout>
