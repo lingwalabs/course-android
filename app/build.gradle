@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdk 32
 
     defaultConfig {
         applicationId "es.cursonoruego"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 32
         versionCode 4000000
         versionName "4.0.0-SNAPSHOT"
     }
